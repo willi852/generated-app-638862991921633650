@@ -1,0 +1,33 @@
+.scientific-functions {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.scientific-functions h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.functions-grid, .constants-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sci-button {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #e9ecef;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sci-button:hover {
+  background-color: #ddd;
+}
